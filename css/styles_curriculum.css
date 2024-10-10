@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.6;
+}
+.header {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.lugares {
+    color: blue;
+}
