@@ -4,18 +4,27 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-.header {
+.header_curriculum {
     border-bottom: 2px solid black;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
-.titulo {
+.titulo_curriculum {
     color: green;
     font-weight: bold;
     margin-top: 20px;
 }
 
-.lugares {
+.lugares_curriculum {
     color: blue;
+}
+
+.navegacion{
+    padding: 15px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
 }
