@@ -4,49 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Web</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles_basicweb.css">
-</head>
 <body>
+</head class="container">
     <header>
-        <p>Ángel</p>
-        <nav>
-            <a class="navegacion" href="index.html">Home</a>
-            <a class="navegacion" href="ofertas.html">Ofertas de trabajo</a>
-            <a class="navegacion" href="popular.html">Ofertas populares</a>
-            <a class="navegacion" href="sutituto.html">Ofertas de sustituto</a>
-            <a class="navegacion" href="hoario.html">Horario</a>
-            <a class="navegacion" href="curriculum.html">curriculum</a>
-            <a class="navegacion" href="basic_web.html">basic web</a>
-        </nav>
+        <div class="top">
+            <div class="logo">
+                <div>[logo]</div>
+                <div>Ángel</div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="ofertas.html">Ofertas de trabajo</a>
+                <a href="popular.html">Ofertas populares</a>
+                <a href="sutituto.html">Ofertas de sustituto</a>
+                <a href="hoario.html">Horario</a>
+                <a href="curriculum.html">curriculum</a>
+                <a href="basic_web.html">basic web</a>
+            </nav>
+        </div>
+        <div class="hero">
+            <p>         </p>
+            <h1>Programador HTML</h1>
+            <p class="text-center">Solo HTML sin estilos</p>
+        </div>
+        
+        
     </header>
-    <main>
-        <p>         </p>
-        <div>Programador HTML</div>
-        <div>Solo HTML sin estilos</div>
-
-        <div>
-            <h3>Projectos</h3>
-            <ul>
-                <li>Portfolios de HTML</li>
-                <li>Calculadora</li>
-                <li>Aplicaciones Quizz</li>
-                <li>Cuenta atras</li>
-                <li>Pagina de producto en desarrollo</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Experiencia Laboral</h3>
-            <p><strong>Roadmap</strong></p>
-            <p>Mira mi roadmap</p>
-            <a href="https://roadmap.sh/projects/basic-html-website">El roadmap</a>
-        </div>
-        <div>
-            <p><strong>Github</strong></p>
-            <p>Mira mi Github</p>
-            <a href="https://github.com/acarrero-esliceu">El github</a>
-        </div>
-        <div>
-            <h3>Educacion</h3>
+    <main class="container">
+        <section class="project">
+            <h2>Projectos</h2>
+                <ul>
+                    <li>Portfolios de HTML</li>
+                    <li>Calculadora</li>
+                    <li>Aplicaciones Quizz</li>
+                    <li>Cuenta atras</li>
+                    <li>Pagina de producto en desarrollo</li>
+                </ul>
+        </section>
+        <section class="work">
+            <h2>Experiencia Laboral</h2>
+                <h3><strong>Roadmap</strong></h3>
+                <p>Mira mi roadmap</p>
+                <a href="https://roadmap.sh/projects/basic-html-website">El link de roadmap</a>
+                <h3><strong>Github</strong></h3>
+                <p>Mira mi Github</p>
+                <a href="https://github.com/acarrero-esliceu">El link de github</a>
+        </section>
+        <section class="education">
+            <h2>Educacion</h2>
             <p>Graduado con un 7.49 de 10 en la ESO</p>
             <p>Cursos hechos:</p>
             <ul>
@@ -57,18 +64,24 @@
                 <li>Monitor</li>
                 <li>Socorrista</li>
             </ul>
-        </div>
-        <div>
-            <h3>Reseñas de mis profesores</h3>
-            <p>Ángel es una persona que siempre ha estudiado mucho y se ha esforzado</p>
-        </div>
-        <div>
-            <p>Aunque a veces le cueste el siempre lo sigue intentando hasta conseguirlo</p>
-        </div>
-        <div>
-            <p>Uno de los mejores monitores que ha habido</p>
-        </div>
+        </section>
     </main>
+    
+    <h2>Reseñas de mis profesores</h2>
+        <section class="review">
+            <div class="review-card">
+                <p>Ángel es una persona que siempre ha estudiado mucho y se ha esforzado</p>
+                <span>Profesor 1</span>
+            </div>
+            <div class="review-card">
+            <p>Aunque a veces le cueste el siempre lo sigue intentando hasta conseguirlo</p>
+            <span>profesor 2</span>
+        </div>
+        <div class="review-card">
+            <p>Uno de los mejores monitores que ha habido</p>
+            <span>profesor 3</span>
+        </div>
+        </section>
     <footer>
         <p>Todos los derechos reservados 2025</p>
     </footer>

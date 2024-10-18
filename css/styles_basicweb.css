@@ -1,8 +1,146 @@
-.navegacion{
-    padding: 15px;
-    background-color: green;
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px; /*1rem 10px*/
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    /*mantiene el color el texto circundante*/
+    text-decoration: none;
+    /*elimina el subrayado*/
+    transition: color 0.3s ease;
+    /*añade una transicion suave par los cambios de color*/
+}
+
+a:hover{
+    color: #007bff;
+    /*cambia el color al pasar el ratón por encima*/
+}
+
+ul {
+    list-style-type: none;
+    /*elimina las viñetas*/
+    padding-left: 0;
+    /*elimina el margen izquierdo*/
+    margin: 0;
+    /*elimina el margen*/
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+main .project {
+    background-color: burlywood;
+    padding: 1rem;
+}
+
+main .work {
+    background-color: lightblue;
+    padding-left: 1rem;
+}
+
+main .education {
+    background-color: pink;
+    padding-left: 1rem;
+}
+
+main {
+    display: flex;
+}
+
+footer {
+
+    padding: 1rem;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Añade espacio entre las tarjetas */
+    margin-top: 2rem;
+}
+
+.review-card {
+    background-color: lightcyan;
+    padding: 1.5rem;
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center;
+    max-width: 300px; /* Define un ancho máximo para las tarjetas */
+}
+
+.review-card p {
+    margin-bottom: 1rem;
+}
+
+.review-card span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: gray; /* Texto gris para el rol o descripción */
+}
+
